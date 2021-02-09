@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Post } from '@nestjs/common';
 
 @Controller()
 export class RoutesController {
@@ -13,4 +13,17 @@ export class RoutesController {
 
 
   }
+
+  
+  @Post()
+
+
+  create(): string {
+
+
+    return 'Résultat de la 1ere route POST';
+
+
+  }
+  
 }
